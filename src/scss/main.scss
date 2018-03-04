@@ -1,0 +1,21 @@
+@import 'basic/variables.scss';
+
+@mixin kwadrat($zm) {
+    width: $zm;
+}
+
+.test {
+    background: $primary-color;
+}
+
+.main {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    .element {
+        width: 50px;
+        height: 50px;
+    }
+}
